@@ -1,0 +1,29 @@
+//Crie um programa chamado Estações. Este programa deve ler uma data e armazenar na
+//variável mês, um número entre 1 e 12, correspondendo a um dos meses do ano. No final,
+//você deve imprimir uma mensagem conforme o exemplo: "A estação do ano correspondente
+//ao mês 3 é Verão"; Considere a estação prevalente para cada mês:
+//a) Janeiro (1): Verão
+//b) Fevereiro (2): Verão
+//c) Março (3): Verão
+//d) Abril (4): Outono
+//e) Maio (5): Outono
+//f) Junho (6): Outono
+//g) Julho (7): Inverno
+//h) Agosto (8): Inverno
+//i) Setembro (9): Inverno
+//j) Outubro (10): Primavera
+//k) Novembro (11): Primavera
+//l) Dezembro (12): Primavera
+
+let estacoes: number = Number(prompt("Informe uma data de acordo com o mês: "))
+    if(estacoes>=1 && estacoes<=3)
+    console.log("Verão")
+
+    else if(estacoes>=4 && estacoes<=6)
+    console.log("Outono")
+
+    else if(estacoes>=7 && estacoes<=9)
+    console.log("Inverno")
+
+    else if(estacoes>=10 && estacoes<=12)
+    console.log("Primavera")
